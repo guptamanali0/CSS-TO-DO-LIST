@@ -1,0 +1,65 @@
+.card{
+background-color: white;
+    border: 1px solid gray;
+    margin: auto;
+    width: 20%;
+    height: 530px;
+    /* margin-top: 40px; */
+    display: grid;
+    /* grid-template-rows: 100px 20px 20px 20px 20px 20px; */
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.div1{
+    /* background-color: yellow; */
+    height: 90px;
+    display: flex;
+    word-spacing: 30px;
+    padding-top: 30px;
+}
+.box{
+    display: grid;
+    height: 370px;
+    /* background-color: aqua; */
+    grid-template-rows: repeat(5,55px);
+    /* border: 1px solid red; */
+    row-gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#griditem{
+    border-width: thin;
+    border-left: 1px solid wheat;
+    border-top: 1px solid wheat;
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px gainsboro;  
+    border-radius: 4%;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+}
+
+#lists{
+    /* position: relative; 
+    left:107px;  */
+    font-size: 38px; 
+    color: gray;
+     font-weight:normal;
+     margin-left: 10px;
+
+}
+body{
+    background-color: #f8f8f8;
+}
