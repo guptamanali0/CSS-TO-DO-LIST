@@ -6,7 +6,7 @@
     display: grid;
 }
 .card{
-    /* background-color: white; */
+    background-color: white;
         filter: blur(5px);
     }
 
